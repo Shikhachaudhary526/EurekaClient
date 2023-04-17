@@ -30,7 +30,7 @@ public class StudentController {
 	    lst = new ArrayList<Student>();
 	    std = new Student("Kajal", "Class III");
 	    lst.add(std);
-	    std = new Student("Sukesh", "Class VI");
+	    std = new Student("Suresh", "Class VI");
 	    lst.add(std);
 	 
 	    schooDB.put("xyzschool", lst);
