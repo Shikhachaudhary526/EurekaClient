@@ -20,9 +20,9 @@ public class StudentController {
 	    schooDB = new HashMap<String, List<Student>>();
 	 
 	    List<Student> lst = new ArrayList<Student>();
-	    Student std = new Student("Sajal", "Class IV");
+	    Student std = new Student("Sejal", "Class IV");
 	    lst.add(std);
-	    std = new Student("Lokesh", "Class V");
+	    std = new Student("Lakshman", "Class V");
 	    lst.add(std);
 	 
 	    schooDB.put("abcschool", lst);
